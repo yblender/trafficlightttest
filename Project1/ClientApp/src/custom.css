@@ -1,0 +1,93 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.intersection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.traffic-light {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+    border-style:solid;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+.white{
+    background-color:white;
+}
+.NorthBound{
+    position:absolute;
+    margin-top:50px;
+    top:0;
+}
+.NorthBoundRight {
+    position: absolute;
+    margin-top: 50px;
+    margin-left:60px;
+    top: 0;
+}
+.SouthBound {
+    position: absolute;
+    margin: 20px;
+    bottom:0;
+}
+.EastBound {
+    position: absolute;
+    margin: 20px;
+    right:0;
+}
+.WestBound {
+    position: absolute;
+    margin: 20px;
+    left:0;
+}
+.xAxis{
+    display:flex;
+}
+.yAxis{
+    display:flex;
+}
+.timer{
+    position:absolute;
+    top:0;
+    margin-right:100px;
+}
